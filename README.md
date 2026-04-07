@@ -52,7 +52,19 @@ Plus three ensemble methods combining the three foundation models:
 
 ![Backtest Comparison](results/plots/backtest_comparison.png)
 
-### Sample forecasts
+### MASE by ticker
+
+![MASE Heatmap](results/plots/mase_heatmap.png)
+
+### Directional accuracy by ticker
+
+![Directional Accuracy Heatmap](results/plots/dir_acc_heatmap.png)
+
+### Model trade-off: accuracy vs direction
+
+![Model Trade-off](results/plots/model_tradeoff.png)
+
+### Sample forecasts (2026-04-07)
 
 ![Latest Forecasts](results/plots/latest_forecasts.png)
 
@@ -127,7 +139,7 @@ fin-forecast-arena/
 
 ```bash
 # Clone
-git clone https://github.com/<your-username>/fin-forecast-arena.git
+git clone https://github.com/YSKM523/fin-forecast-arena.git
 cd fin-forecast-arena
 
 # Environment
