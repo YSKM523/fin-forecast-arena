@@ -1,0 +1,23 @@
+# Core ML / forecasting
+torch>=2.10.0
+chronos-forecasting>=2.2.0
+granite-tsfm>=0.3.5
+transformers>=4.57.0
+huggingface_hub>=0.34.0
+accelerate>=0.26.0
+xgboost>=3.0.0
+scikit-learn>=1.5.0
+
+# Data
+yfinance>=1.2.0
+pandas>=2.2.0
+numpy>=1.26.0,<2.0
+
+# Evaluation & plotting
+matplotlib>=3.8.0
+seaborn>=0.13.0
+properscoring>=0.1
+
+# TimesFM 2.5 — install from source:
+#   git clone https://github.com/google-research/timesfm.git
+#   pip install -e "./timesfm[torch]"

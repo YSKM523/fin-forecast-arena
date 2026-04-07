@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+
+# Data cache (downloaded via yfinance)
+data/cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# HuggingFace / model weights
+.cache/
+*.safetensors
+*.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+results/logs/
+
+# TimesFM clone (install from source)
+timesfm/
